@@ -1,0 +1,16 @@
+name: Add OpenAI to Simple Editor
+description: A recipe to manage default OpenAI button and plugin settings for the Simple Editor with CKEditor 5.
+type: optional
+config:
+  actions:
+    editor.editor.basic_html:
+      add_button_to_toolbar:
+        button_name: openai
+        button_index: 1
+        plugin_name: openai_ckeditor_openai
+        plugin_settings:
+          completion:
+            enabled: true
+            model: gpt-4
+            temperature: 0.2
+            max_tokens: 512

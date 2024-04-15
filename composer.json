@@ -1,0 +1,19 @@
+{
+  "name": "vardot/add-openai-to-simple-editor",
+  "description": "A recipe to manage default OpenAI button and plugin settings for the Simple Editor with CKEditor 5.",
+  "keywords": ["recipe", "Varbase recipes", "varbase recipe", "Drupal recipes", "drupal recipe", "openai", "simple editor"],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Vardot",
+      "homepage": "https://www.drupal.org/vardot",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "drupal/core": "~10",
+    "vardot/varbase-patches": "~10",
+    "drupal/openai": "~1"
+  }
+}
