@@ -4,7 +4,7 @@ type: optional
 config:
   actions:
     editor.editor.basic_html:
-      add_button_to_toolbar:
+      addButtonPluginIntoActiveToolbar:
         button_name: openai
         button_index: 1
         plugin_name: openai_ckeditor_openai

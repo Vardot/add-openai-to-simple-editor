@@ -13,7 +13,7 @@
   ],
   "require": {
     "drupal/core": "~10",
-    "vardot/varbase-patches": "~10",
+    "vardot/varbase-patches": "~9 || ~10",
     "drupal/openai": "~1"
   }
 }
